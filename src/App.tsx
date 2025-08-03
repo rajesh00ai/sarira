@@ -4,7 +4,6 @@ import Hero from './components/Hero';
 import Benefits from './components/Benefits';
 import Story from './components/Story';
 import Recipes from './components/Recipes';
-import UsageIdeas from './components/UsageIdeas';
 import Blog from './components/Blog';
 import Gallery from './components/Gallery';
 import ShippingReturns from './components/ShippingReturns';
@@ -20,7 +19,6 @@ function App() {
       <Benefits />
       <Story />
       <Recipes />
-      <UsageIdeas />
       <Blog />
       <Gallery />
       <ShippingReturns />

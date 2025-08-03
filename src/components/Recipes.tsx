@@ -48,11 +48,6 @@ const Recipes = () => {
               className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 animate-fade-in"
               style={{ animationDelay: `${index * 0.1}s` }}
             >
-              {/* Recipe Image */}
-              <div className="h-40 sm:h-48 bg-gradient-to-br from-[#E38A30]/20 to-[#364A22]/20 flex items-center justify-center">
-                <span className="text-5xl sm:text-6xl">{recipe.image}</span>
-              </div>
-
               {/* Recipe Content */}
               <div className="p-4 sm:p-6">
                 <h3 className="text-lg sm:text-xl font-semibold text-[#364A22] mb-2">
